@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+        <h1>REGULAR/ ARROW FUNCTION</h1>
+        <p>the <strong>this</strong> keyword represents different objects depending on how the functin was called / keyword represents the Header object.</p>
+        <button id="btn">click me !</button>
+        <p><strong>this</strong>represents:</p>
+        <p id="demo"></p>
+        <p>see the difference before and after the button is clicked.</p>
+        <script>
+            class Header{
+                constructor(){
+                    this.color = "red";
+                }
+                // regular function
+                // changeColor = function(){
+                //     document.getElementById("demo").innerHTML += this;
+                // }
+                //arrow function 
+                changeColor = () =>{
+                    document.getElementById("demo").innerHTML += this;
+                }
+
+            }
+            const myHeader = new Header();
+            //the window object calls the function:
+            window.addEventListener("load",myHeader.changeColor);
+            //a button object calls the function:
+            document.getElementById("btn").addEventListener("click",myHeader.changeColor);
+        </script>
+    </body>
+</html> -->
+
+
+
+<!-- <table>
+    <tr>
+        <th>nom</th>
+        <th>age</th>
+        <th>classement</th>
+        <th>moyenne_generale</th>
+
+    </tr>
+    <tr>
+        <td>layla iben khaldoune</td>
+        <td>21</td>
+        <td>49</td>
+        <td>13.28</td>
+    </tr>
+    <tr>
+        <td>amine bouzaidi</td>
+        <td>21</td>
+        <td>231</td>
+        <td>10.2</td>
+    </tr>
+</table> -->
